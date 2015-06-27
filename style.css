@@ -1,0 +1,135 @@
+body {
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+p {margin:0;}
+
+#overlay {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	position: absolute;
+	top: 0px;
+	color: #fff;
+	background: #000;
+	width:100%;	
+	z-index:1;
+}
+
+#control {line-height:38px; height:38px; padding-left:20px; width:450px; float:left;}
+
+#control a:link { color:#e2e2e2; text-decoration:none;}
+#control a:visited { color:#e2e2e2; text-decoration:none;}
+#control a:hover { color:#e2e2e2; text-decoration:underline;}
+#control a:active { color:#e2e2e2; text-decoration:none;}
+
+#control a {margin-right:20px;}
+
+
+#agphotography {float:right; height:26px; padding:6px 20px 6px 0px;	width:157px;}
+
+#thumbnails {
+	z-index:4;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	background:none;
+	border:none;
+	width:70%;
+	
+}
+
+
+/*#control {
+	text-align: center;
+}
+#control a {
+	font-weight: bold;
+}*/
+
+#thumbs, #thumbs1, #thumbs2, #thumbs3 {
+	text-align: left;
+}
+#thumbs a img, #thumbs1 a img, #thumbs2 a img, #thumbs3 a img{
+	/*display: block;
+	line-height: 22px;
+	float: left;*/
+	width: 35px; 
+	height: 35px;
+	float:left;
+	display:block;
+	margin-right:6px;
+	margin-top:6px;
+	border:1px solid #efefef;
+}
+
+#transition {
+	width:100%;
+}
+
+#about_me {
+	position:relative;
+	width:900px;
+	padding:20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:12pt;
+	background:#000;
+	display:none;
+	z-index:5;
+	color:#fff;
+	margin:100px auto;	
+}
+
+#about_me p {
+	margin-top:10px;
+}
+
+#about_me h1 {
+	margin-top:0px; 
+	font-size:14pt;
+}
+
+#about_me a{
+	color:#fff;
+	text-decoration:none;
+}
+
+#close_container {
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:20px;
+	height:20px;
+}
+
+
+#showtitle {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:70%;
+	font-style:italic;
+	z-index: 3;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background: #000;
+	display: none;
+	color: #fff;
+	padding: 5px;
+	/*width: 275px;*/
+	/*border: solid 1px #d4d4d4;*/
+}
+
+a.activeslide img { border:1px solid #ccc;}
+
+#superbgimage {
+	display: none;
+	background: #fff url('loading.gif') center center no-repeat;
+}
+#superbgimage img {
+	image-rendering: optimizeQuality;
+	-ms-interpolation-mode: bicubic;
+}
